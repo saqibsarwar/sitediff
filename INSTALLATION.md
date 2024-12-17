@@ -87,8 +87,8 @@ recent Macs, the `nokogiri` step below will fail and it can be safely skipped.
 If possible avoid using `sudo` for `gem install`.
 
 ```bash
-gem install nokogiri --no-rdoc --no-ri -- --use-system-libraries=true —with-xml2-include=/usr/include/libxml2
-gem install sitediff -v '1.2.1'
+gem install nokogiri -- --use-system-libraries=true —with-xml2-include=/usr/include/libxml2
+gem install sitediff -v '1.2.10'
 ```
 
 ## Ubuntu
